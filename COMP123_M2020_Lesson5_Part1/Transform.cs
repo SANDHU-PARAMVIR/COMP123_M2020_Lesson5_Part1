@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace COMP123_M2020_Lesson5_Part1
 {
-    class Program
+    struct Transform
     {
-        static void Main(string[] args)
-        {
+        public Vector2D position;
+        public Vector2D rotation;
+        public Vector2D scale;
 
-        }
     }
 }
